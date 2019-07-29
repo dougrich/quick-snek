@@ -1,0 +1,16 @@
+{
+  "name": "quick-snek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "asbundle": "^2.6.0",
+    "minify": "^4.1.3"
+  },
+  "scripts": {
+    "bundle": "asbundle ./src/index.js ./bundle.js && minify ./bundle.js > dist.js"
+  },
+  "author": "dougrich",
+  "license": "MIT"
+}
